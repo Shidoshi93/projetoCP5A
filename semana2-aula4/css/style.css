@@ -22,7 +22,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2c2727;
+    background-color: #000;
     height: 10vh;
 }
 
@@ -33,7 +33,7 @@ p {
 .box-master {
     width: 80%;
     margin: calc(5vh - 20px) auto 0 auto;
-    background-color: #2c2727;
+    background-image: linear-gradient(black, grey);
     /* height: 65vh; */
     padding: 10px;
     border-radius: 10px;
@@ -79,7 +79,7 @@ p {
     width: calc(90vw + 20px);
     margin: 0 auto;
     margin-top: 10px;
-    background-color: rgb(44, 39, 39);
+    background-image: linear-gradient(grey, rgb(158, 155, 155));
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: space-around;
@@ -108,4 +108,20 @@ p {
 #js {
     background-color: rgb(199, 202, 31);
     background-image: linear-gradient(blue, yellow);
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    #title {
+        font-size: 1.2em;
+    }
+    
+    .footer {
+        font-size: .7em;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .content-footer {
+        width: 70%;
+    }
 }
