@@ -1,0 +1,62 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mother-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+    min-height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+    /* height: 100px;
+    width: 100px; */
+}
+
+img {
+    width: 100%;
+}
+
+/* .container-img {
+    height: 150px;
+} */
+
+.title-card {
+    text-align: center;
+}
+
+ .description {
+    padding: 5px;
+    margin-bottom: 30px;
+} 
+
+.btn {
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/* #item-2, #item-3 {
+    align-content: space-around;
+}
+ */
