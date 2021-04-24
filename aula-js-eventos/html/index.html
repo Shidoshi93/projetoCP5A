@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <div class="mother-box">
+
+        <header>
+            <h1>Cadastro</h1>
+        </header>
+        <form action="#" id="form" class="form">
+            <div class="container-input">
+                <label id="lblName" for="name">Nome:</label>
+                <input type="text" id="name" placeholder="Nome">
+            </div>
+            
+            <div class="container-input">
+                <label id="lblSobrenome" for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" placeholder="Sobrenome" >
+            </div>
+
+            <div class="container-input">
+                <label for="idade">Idade:</label>
+                <input type="date" id="age" >
+            </div>
+
+            <div class="container-input">
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="" disabled selected>Sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>                
+            </div>
+
+            <div class="container-input">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="email@email.com" >
+            </div>
+
+            <div class="container-input">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" placeholder="Senha" >
+            </div>
+
+            <div class="btn">
+                <button id="btn" type="submit">Enviar</button>
+            </div>
+            
+
+            <!-- <textarea name="" id="" cols="30" rows="10" ></textarea> -->
+        </form>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
